@@ -4,9 +4,9 @@ A more lightweight version of the Asciidoctor Docker Container based on Alpine.
 
 ## Image Variants
 
-### `alpine-asciidoctor`
+### `docker-alpine-asciidoctor`
 
-[![](https://images.microbadger.com/badges/image/sruehl/alpine-asciidoctor.svg)](http://microbadger.com/images/sruehl/alpine-asciidoctor "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/sruehl/docker-alpine-asciidoctor.svg)](http://microbadger.com/images/sruehl/docker-alpine-asciidoctor "Get your own image badge on microbadger.com")
 
 This variant is the default and contains the full functionality from the official Asciidoctor image (except fopub at the moment). Ideal if you need the full-fledged Asciidoctor in all its glory.
 
@@ -19,9 +19,9 @@ This variant is the default and contains the full functionality from the officia
 * Asciidoctor-confluence
 * Lazybones (for Asciidoctor-revealjs)
 
-### `alpine-asciidoctor:mini`
+### `docker-alpine-asciidoctor:mini`
 
-[![](https://images.microbadger.com/badges/image/sruehl/alpine-asciidoctor:mini.svg)](http://microbadger.com/images/sruehl/alpine-asciidoctor:mini "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/sruehl/docker-alpine-asciidoctor:mini.svg)](http://microbadger.com/images/sruehl/docker-alpine-asciidoctor:mini "Get your own image badge on microbadger.com")
 
 This variant is a trimmed down version with basic support for diagrams, support for PDF and EPUB3 formats and confluence. Ideal if you need to export to several formats or make basic diagrams.
 
@@ -32,9 +32,9 @@ This variant is a trimmed down version with basic support for diagrams, support 
 * Source highlighting using CodeRay
 * Asciidoctor-confluence
 
-### `alpine-asciidoctor:micro`
+### `docker-alpine-asciidoctor:micro`
 
-[![](https://images.microbadger.com/badges/image/sruehl/alpine-asciidoctor:micro.svg)](http://microbadger.com/images/sruehl/alpine-asciidoctor:micro "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/sruehl/docker-alpine-asciidoctor:micro.svg)](http://microbadger.com/images/sruehl/docker-alpine-asciidoctor:micro "Get your own image badge on microbadger.com")
 
 This variant is a trimmed down version containing only the necessary to build basic asciidoc files with source highlighting. Ideal for building simple documentation to HTML.
 
